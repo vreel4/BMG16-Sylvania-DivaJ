@@ -1,0 +1,59 @@
+{
+  "data": {
+    "attackBound": {
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 4
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 4
+      }
+    },
+    "attackTarget": {
+      "attackEntity": "hitTargetConfigEntity",
+      "entityList": [
+        "myplugin/6992a5c3-b00a-4760-964f-9943ec734947"
+      ],
+      "targetType": "hitNpc"
+    },
+    "castAction": {
+      "castAction": "attack"
+    },
+    "castSound": {
+      "sound": {
+        "asset": "asset/punch.mp3"
+      }
+    },
+    "damage": 20,
+    "hitEntitySound": {
+      "sound": {
+        "asset": "asset/after punch.mp3"
+      }
+    },
+    "hurtDistance": 0,
+    "name": {
+      "value": "skill_system_0e92998a-c2fc-4f3c-ab7d-72debbadc7d6"
+    },
+    "skillIcon": {
+      "asset": "asset/punch (1).png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    },
+    "skillIconPushed": {
+      "asset": "asset/punch.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e348b9d4ad0beee16937c9ed490a60bb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

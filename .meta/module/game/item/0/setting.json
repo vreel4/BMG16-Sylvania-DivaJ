@@ -1,0 +1,104 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 34,
+        "y": 53,
+        "z": 4
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 34,
+        "y": 53,
+        "z": 4
+      }
+    },
+    "team": {
+      "team": [
+        {
+          "image": {
+            "selector": "editor/b,g/asset/Texture/Team/flag/flag_1.png"
+          },
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 34,
+              "y": 53,
+              "z": 4
+            }
+          },
+          "name": "team1",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 34,
+              "y": 53,
+              "z": 4
+            }
+          }
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "entity": [
+        {
+          "key": "player_entity",
+          "type": "entity",
+          "value": {
+            "__OBJ_TYPE": "T_Entity"
+          }
+        },
+        {
+          "key": "player_hp",
+          "save": true,
+          "value": {
+            "rawval": 100
+          }
+        }
+      ],
+      "global": [
+        {
+          "key": "move",
+          "struct_type": "array",
+          "type": "vector3",
+          "value": {
+            "__OBJ_TYPE": "T_Vector3Array",
+            "rawval": [
+              []
+            ]
+          }
+        }
+      ]
+    },
+    "waitGoTime": {
+      "value": 20
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2578c60ae63ccc3f02e5b26aeb52a04c",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

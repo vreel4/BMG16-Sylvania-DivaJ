@@ -1,0 +1,135 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "canBreak": false,
+    "fog": {
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 170
+      },
+      "density": {
+        "value": 0.09
+      },
+      "hideFog": false
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/520cf0e2-8021-4491-9f3e-f39748b925a2",
+        "id": "8750201491996491777",
+        "isLockedInEditor": true,
+        "name": "Finish Point",
+        "position": {
+          "x": 34,
+          "y": 54,
+          "z": 59.455997467041
+        },
+        "scale": {
+          "x": 4.93143,
+          "y": 3.38777,
+          "z": 3.10314
+        },
+        "size": {
+          "x": 4.9314341545105,
+          "y": 3.3877720832825,
+          "z": 3.1031413078308
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8750205026830909441",
+        "ID": 2,
+        "lightAngle": 38.7,
+        "lightBrightness": 4.27,
+        "lightColor": {
+          "b": 60,
+          "g": 196
+        },
+        "lightType": "SpotLight",
+        "name": "SpotLight",
+        "position": {
+          "x": 34,
+          "y": 61,
+          "z": 60
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/6992a5c3-b00a-4760-964f-9943ec734947",
+        "id": "8750216506274988033",
+        "isLockedInEditor": true,
+        "name": "Enemy",
+        "position": {
+          "x": 34.364189147949,
+          "y": 53.006935119629,
+          "z": 51.889533996582
+        },
+        "rotation": {
+          "y": -174.00010681152
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/84b0ecc1-2535-43e4-81fe-3d93bde81bf4",
+        "id": "8750336325304254465",
+        "isLockedInEditor": true,
+        "isVisibleInEditor": false,
+        "name": "move_land",
+        "position": {
+          "x": 34.262706756592,
+          "y": 47.483997344971,
+          "z": 31.872207641602
+        },
+        "scale": {
+          "x": 32.3954,
+          "y": 1.38195,
+          "z": 80.2086
+        },
+        "size": {
+          "x": 32.39542388916,
+          "y": 1.3819519281387,
+          "z": 80.208641052246
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "08894265c676ca372dee8d99eb7c30d9"
+    },
+    "VERSION": "0.22"
+  }
+}

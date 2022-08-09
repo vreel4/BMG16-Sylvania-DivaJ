@@ -1,0 +1,121 @@
+{
+  "blinn": 0,
+  "canBreak": false,
+  "fog": {
+    "color": {
+      "x": 0.6640625,
+      "y": 0.99609375,
+      "z": 0.99609375
+    },
+    "density": 0.09,
+    "end": 15,
+    "start": 10
+  },
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/520cf0e2-8021-4491-9f3e-f39748b925a2",
+        "id": "8750201491996491777",
+        "name": "Finish Point",
+        "needSync": "true",
+        "position": "x:34 y:54 z:59.455997467041",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:4.93143 y:3.38777 z:3.10314",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Light",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8750205026830909441",
+        "ID": "2",
+        "lightActived": "true",
+        "lightAngle": "38.7",
+        "lightBrightness": "4.27",
+        "lightColor": "r:1.0 g:0.76862745098039 b:0.23529411764706 a:1.0",
+        "lightLength": "1.0",
+        "lightRange": "8.0",
+        "lightType": "SpotLight",
+        "lightWidth": "1.0",
+        "name": "SpotLight",
+        "needSync": "true",
+        "position": "x:34 y:61 z:60",
+        "rotation": "x:0 y:-90 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "shadowsDistance": "20.0",
+        "shadowsIntensity": "1.0",
+        "shadowsOffset": "0.02",
+        "shadowsPresicion": "1024",
+        "shadowsType": "null",
+        "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
+        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/6992a5c3-b00a-4760-964f-9943ec734947",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8750216506274988033",
+        "name": "Enemy",
+        "needSync": "true",
+        "position": "x:34.364189147949 y:53.006935119629 z:51.889533996582",
+        "rotation": "x:0 y:-174.00010681152 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/84b0ecc1-2535-43e4-81fe-3d93bde81bf4",
+        "id": "8750336325304254465",
+        "name": "move_land",
+        "needSync": "true",
+        "position": "x:34.262706756592 y:47.483997344971 z:31.872207641602",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:32.3954 y:1.38195 z:80.2086",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}

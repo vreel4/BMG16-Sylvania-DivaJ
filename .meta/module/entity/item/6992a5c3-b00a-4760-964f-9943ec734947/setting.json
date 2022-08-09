@@ -1,0 +1,44 @@
+{
+  "data": {
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 5,
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/e18b2eb0-7c40-4261-a4e4-233399f9254e"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 4
+    },
+    "AI_patrol": {
+      "idle": {
+        "prob": {
+          "value": 1
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "autoMove": true,
+    "clickDistance": 7,
+    "enableAI": true,
+    "gravity": 1,
+    "hideHp": false,
+    "hpBarColor": {
+      "r": 170
+    },
+    "maxHp": 100,
+    "name": {
+      "value": "entity_6992a5c3-b00a-4760-964f-9943ec734947"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "900eb9916a340c85b84844794d5a2002",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

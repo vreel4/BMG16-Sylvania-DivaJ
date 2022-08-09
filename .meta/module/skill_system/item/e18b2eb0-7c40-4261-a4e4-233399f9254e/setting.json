@@ -1,0 +1,49 @@
+{
+  "data": {
+    "attackBound": {
+      "size": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "size": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "attackTarget": {
+      "attackEntity": "hitTargetConfigEntity",
+      "entityList": [
+        "myplugin/player1"
+      ],
+      "targetType": "hitPlayer"
+    },
+    "castAction": {
+      "castAction": "attack4"
+    },
+    "castSound": {
+      "sound": {
+        "asset": "asset/punch.mp3"
+      }
+    },
+    "damage": 10,
+    "hitEntitySound": {
+      "sound": {
+        "asset": "asset/after punch.mp3"
+      }
+    },
+    "hurtDistance": 0,
+    "isLimit": true,
+    "name": {
+      "value": "skill_system_e18b2eb0-7c40-4261-a4e4-233399f9254e"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2205c1e4e87d097e1a373d2fffaacdef",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

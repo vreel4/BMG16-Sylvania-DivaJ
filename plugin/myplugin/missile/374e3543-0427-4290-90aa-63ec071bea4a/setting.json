@@ -1,0 +1,63 @@
+{
+  "autoRotateColliderBox": true,
+  "collideBlock": 4,
+  "collideEntity": 6,
+  "collider": {
+    "extent": {
+      "x": 2,
+      "y": 2,
+      "z": 1
+    },
+    "offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "type": "Box"
+  },
+  "followTarget": true,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0.0,
+  "hitEntityCount": 1,
+  "hitEntitySkill": "myplugin/2defde18-e6a9-455a-86a2-dbbd9b133136",
+  "hitEntitySound": {
+    "loop": false,
+    "path": "asset/after punch.mp3",
+    "selfOnly": false,
+    "sound": "@after punch.mp3",
+    "volume": 1
+  },
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitPlayer",
+    "hitTargetConfigEntity"
+  ],
+  "hitInterval": 2,
+  "hitTargetConfigRole": [
+    {
+      "fullName": "myplugin/player1"
+    }
+  ],
+  "isPitch": true,
+  "lifeTime": 2,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "moveAcc": 0.0,
+  "moveSpeed": 2.0,
+  "rotateFree": true,
+  "rotateSpeed": 0.0,
+  "startWithMoveAcc": true,
+  "vanishShow": false,
+  "vanishTime": 10
+}

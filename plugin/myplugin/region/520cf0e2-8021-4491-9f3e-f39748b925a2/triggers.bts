@@ -1,0 +1,4 @@
+REGION_ENTER {
+	SetHeadText(entity = $obj1, headText = "23728eb1-9c02-4134-aa22-21edf1804dac", x = 1, y = 0)
+	GameOver()
+}
